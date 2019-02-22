@@ -1,0 +1,3 @@
+zrobic budzik
+zrobic warunowanie animacje jak pm lub am jak jest jasno
+jak zrobic zeby przez na przyklad klikniecie js szla animacja zrobiona w css
