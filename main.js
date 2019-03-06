@@ -22,14 +22,3 @@ setInterval(setDate, 1000);
 
 setDate();
 
-
-/*const now = new Date();
-const seconds = now.getSeconds(); 
-const mins = now.getMinutes();
-const hour = now.getHours();
-
-const myaudio = document.querySelector("#alert");
-function audios() {
-  myaudio.play();
-}
-addEventListener('click', audios);
