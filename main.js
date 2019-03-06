@@ -22,3 +22,19 @@ setInterval(setDate, 1000);
 
 setDate();
 
+function Time()
+{
+  const now = new Date();
+  const TT = now.getHours();
+  var day = document.getElementById('day');
+  var night = document.getElementById('night');
+  var imageNight = document.getElementById('stars');
+  var imageDay = document.getElementById('sun');
+  if(TT>12){
+  night.style.display ='';
+  imageNight.style.display='';
+  } else{
+  day.style.display = '';
+  imageDay.style.display='';
+}}
+Time();

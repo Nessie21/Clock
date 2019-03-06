@@ -5,7 +5,7 @@
     display: flex;
     flex: 1;
     align-items: center;
-    background: rgb(0, 0, 0) ;
+    background: black;
     background-size: contain;
     background-position-x: 155px;
     background-position-y: -5px;
@@ -80,3 +80,33 @@
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
 
+#day{
+  font-family: fantasy;
+  color: yellowgreen;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
+#night{
+  font-family: fantasy;
+  color: darkslateblue;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
+#stars{
+  position: absolute;
+    width: 1500px;
+    height: 200px;
+    top: 80%;
+    right: 10%;
+}
+
+#sun{
+  position: absolute;
+    height: 376px;
+    width: 357px;
+    top: 70%;
+}
